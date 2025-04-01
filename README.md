@@ -66,4 +66,4 @@ An end-to-end pipeline that generates lifelike speech from audio + text using SS
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=0:6BA4FF,100:2E67F8&height=100)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF6FD8&height=120&section=Footer)
