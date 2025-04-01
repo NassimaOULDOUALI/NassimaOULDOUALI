@@ -5,7 +5,6 @@
 ### 🎙️ Research Engineer in Speech Synthesis | Voice & NLP   
 🏛 Currently @ École Polytechnique  
 🎓 Alumna of Paris Descartes, UVSQ & Université Gustave Eiffel
-📫 **Email:** [nassima.ouldouali123@gmail.com](mailto:nassima.ouldouali123@gmail.com)
 ---
 
 ## 🌐 Connect with Me
