@@ -15,6 +15,8 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=NassimaOULDOUALI&color=blue)
 
+📫 **Email:** [nassima.ouldouali123@gmail.com](mailto:nassima.ouldouali123@gmail.com)
+
 ---
 
 ## 🚀 About Me
