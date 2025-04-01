@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:6BA4FF,100:2E67F8&height=120&section=header)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF6FD8&height=120&section=header)
 
 # 👋 Hi, I'm Nassima OULD OUALI
 
