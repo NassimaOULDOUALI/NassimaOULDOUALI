@@ -23,11 +23,6 @@
 I'm a **Research Engineer** specializing in **Text-to-Speech (TTS)** and **Natural Language Processing (NLP)**.  
 I'm passionate about the human voice, its expressive power, and the intersection between linguistics, machine learning, and creative technologies.
 
-### 📊 My Recent GitHub Activity
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=NassimaOULDOUALI&theme=react-dark&area=true&hide_border=true)
-
-
 
 
 - 👩‍🔬 Currently working on speech synthesis at **École Polytechnique**
