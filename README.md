@@ -67,11 +67,6 @@ An end-to-end pipeline that generates lifelike speech from audio + text using SS
 - I enjoy solving **tiny timing challenges** in SSML with surgical precision.
 - I like making machines speak like humans — not the other way around.
 
-## 📈 My GitHub Activity (Private & Public)
 
-![My Git Contribution Graph](https://raw.githubusercontent.com/NassimaOULDOUALI/NassimaOULDOUALI/output/contribution_graph.png)
-
-
----
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF6FD8&height=120&section=Footer)
