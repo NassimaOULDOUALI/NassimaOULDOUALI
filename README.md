@@ -57,7 +57,8 @@ I'm passionate about the human voice, its expressive power, and the intersection
 An end-to-end pipeline that generates lifelike speech from audio + text using SSML, timestamps, and multi-layer architecture.
 
 🛠️ Tools used: Whisper Timestamped, Azure TTS, TextGrid, WhisperX, Demucs  
-🔗 Check the repo → [mon_projet_TTS](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS
+🔗 Check the repo → [Prosody-Control-French-TTS
+](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS
 )
 
 ---
