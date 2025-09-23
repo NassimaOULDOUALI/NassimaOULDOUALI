@@ -1,77 +1,100 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF6FD8&height=120&section=header)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Nassima%20OULD%20OUALI&fontSize=40&fontColor=ffffff&animation=fadeIn)
+
+<div align="center">
 
 # 👋 Hi, I'm Nassima OULD OUALI
+### 🎙️ Research Engineer | Speech Synthesis & NLP Specialist
 
-### 🎙️ Research Engineer in Speech Synthesis | Voice & NLP   
-🏛 Currently @ École Polytechnique  
-🎓 Alumna of Paris Descartes, UVSQ & Université Gustave Eiffel
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://fr.linkedin.com/in/nassima-ould-ouali-858644170)
+[![Email](https://img.shields.io/badge/Email-Contact-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nassima.ouldouali123@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-%23181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NassimaOULDOUALI)
 
-🔗 **Connect with me on LinkedIn:**
+![Profile Views](https://komarev.com/ghpvc/?username=NassimaOULDOUALI&color=blueviolet&style=flat-square)
 
-<div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nassima-ould-ouali-858644170" data-version="v1">
-  <a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/nassima-ould-ouali-858644170?trk=profile-badge">Nassima OULD OUALI</a>
 </div>
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NassimaOULDOUALI)
-
-![Profile Views](https://komarev.com/ghpvc/?username=NassimaOULDOUALI&color=blue)
-
-📫 **Email:** [nassima.ouldouali123@gmail.com](mailto:nassima.ouldouali123@gmail.com)
 
 ---
 
 ## 🚀 About Me
 
-I'm a **Research Engineer** specializing in **Text-to-Speech (TTS)** and **Natural Language Processing (NLP)**.  
-I'm passionate about the human voice, its expressive power, and the intersection between linguistics, machine learning, and creative technologies.
+<div align="center">
+  
+🔬 **Research Engineer** specializing in **Text-to-Speech (TTS)** and **Natural Language Processing (NLP)**  
+🎯 Passionate about voice expressivity, linguistics, and creative AI technologies  
+🏛️ Currently researching at **École Polytechnique**
 
+</div>
 
+---
 
-- 👩‍🔬 Currently working on speech synthesis at **École Polytechnique**
-- 🧠 Expert in voice design, prosody modeling, SSML generation, and speech-text alignment
-- 🏗 Previously worked at **Segula Technologies** on NLP projects
-- 💡 Designing advanced modular pipelines using Whisper, Azure, Demucs & WhisperX
+## 🛠️ Tech Stack
+
+<div align="center">
+
+### **Programming & Tools**
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### **AI & Speech Technologies**
+![Whisper](https://img.shields.io/badge/OpenAI_Whisper-000000?style=for-the-badge&logo=openai&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure_TTS-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-B36AFF?style=for-the-badge)
+![SSML](https://img.shields.io/badge/SSML-32CD32?style=for-the-badge)
+
+### **Frameworks & Libraries**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+
+</div>
 
 ---
 
 ## 🎓 Education
 
-- 📚 Bachelor degree – **Paris Descartes University**
-- 📘 Master degree – **UVSQ (Versailles Saint-Quentin)**
-- 🎓 Master degree – **Université Gustave Eiffel (Marne-la-Vallée)**
+| Degree | Institution | Focus |
+|--------|-------------|--------|
+| **Master's Degree** | Université Gustave Eiffel | Advanced Research |
+| **Master's Degree** | UVSQ (Versailles Saint-Quentin) | Specialized Studies |
+| **Bachelor's Degree** | Paris Descartes University | Foundation Studies |
 
 ---
 
-## 🛠 Technologies & Tools
+## 🔬 Featured Projects
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![Whisper](https://img.shields.io/badge/OpenAI%20Whisper-000000?style=flat&logo=openai&logoColor=white)
-![SSML](https://img.shields.io/badge/SSML-006400?style=flat)
-![Azure](https://img.shields.io/badge/Azure%20TTS-0089D6?style=flat&logo=microsoftazure&logoColor=white)
-![NLP](https://img.shields.io/badge/NLP-B36AFF?style=flat)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+### 🎧 **Prosody-Control French TTS**
+> Advanced speech synthesis with natural prosody control
 
----
+![GitHub Repo stars](https://img.shields.io/github/stars/NassimaOULDOUALI/Prosody-Control-French-TTS?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/NassimaOULDOUALI/Prosody-Control-French-TTS?color=blue)
 
-## 🔬 Featured Project
+**Tech Stack:** Whisper Timestamped, Azure TTS, TextGrid, WhisperX, Demucs  
+**Features:** SSML generation, multi-layer architecture, precise timing control
 
-🎧 **Speech Alignment & Natural Prosody TTS**:  
-An end-to-end pipeline that generates lifelike speech from audio + text using SSML, timestamps, and multi-layer architecture.
-
-🛠️ Tools used: Whisper Timestamped, Azure TTS, TextGrid, WhisperX, Demucs  
-🔗 Check the repo → [Prosody-Control-French-TTS
-](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS
-)
+[![View Project](https://img.shields.io/badge/View-Repository-%231572B6?style=for-the-badge)](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS)
 
 ---
 
-## 💬 Fun Facts
+## 📈 GitHub Stats
 
-- I believe the **voice is the soul of communication**.
-- I enjoy solving **tiny timing challenges** in SSML with surgical precision.
-- I like making machines speak like humans — not the other way around.
+<div align="center">
 
+![Nassima's GitHub stats](https://github-readme-stats.vercel.app/api?username=NassimaOULDOUALI&show_icons=true&theme=radical)
 
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NassimaOULDOUALI&layout=compact&theme=radical)
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:FF6FD8&height=120&section=Footer)
+</div>
+
+---
+
+## 💡 Fun Facts
+
+<div align="center">
+
+> *"The voice is the soul of communication"*  
+> 🔬 **Precision enthusiast** in SSML timing  
+> 🎯 **Goal:** Making machines speak like humans — not the other way around
+
+</div>
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn)
