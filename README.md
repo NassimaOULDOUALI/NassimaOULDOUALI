@@ -7,9 +7,12 @@
 🎓 Alumna of Paris Descartes, UVSQ & Université Gustave Eiffel
 ---
 
-## 🌐 Connect with Me
+🔗 **Connect with me on LinkedIn:**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nassima-ould-ouali-858644170/)  
+<div class="badge-base LI-profile-badge" data-locale="fr_FR" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nassima-ould-ouali-858644170" data-version="v1">
+  <a class="badge-base__link LI-simple-link" href="https://fr.linkedin.com/in/nassima-ould-ouali-858644170?trk=profile-badge">Nassima OULD OUALI</a>
+</div>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NassimaOULDOUALI)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=NassimaOULDOUALI&color=blue)
