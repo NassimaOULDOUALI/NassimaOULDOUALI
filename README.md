@@ -97,4 +97,21 @@
 
 </div>
 
+---
+
+## ☕ Support My Work
+
+If you find my projects helpful, consider:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/nassima)
+[![GitHub Sponsor](https://img.shields.io/badge/Sponsor-EA4AAA?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/NassimaOULDOUALI)
+
+⭐ **Star my repositories** • 🔄 **Share my projects** • 📧 **Recommend me**
+
+Thanks for visiting! 🙏
+
+---
+
+![Profile Views](https://komarev.com/ghpvc/?username=NassimaOULDOUALI&color=blueviolet&style=flat-square)
+
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn)
