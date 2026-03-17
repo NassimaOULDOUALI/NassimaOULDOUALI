@@ -4,8 +4,8 @@
 
 # 👋 Hi, I'm Nassima OULD OUALI
 
-### Research Engineer in Speech @ Hi! PARIS  
-### TTS • Prosody Control • Voice Conversion • NLP
+### Research Engineer in Speech @ Hi! PARIS / École Polytechnique  
+### Working on TTS, Prosody Control, Voice Conversion, and NLP  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://fr.linkedin.com/in/nassima-ould-ouali-858644170)
 [![Email](https://img.shields.io/badge/Email-Contact-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nassima.ouldouali123@gmail.com)
@@ -19,16 +19,16 @@
 
 ## About me
 
-I am a **Research Engineer in Speech** working on **controllable and high-fidelity speech generation systems**, with a strong focus on **French TTS**, **prosody control**, **voice conversion**, **evaluation**, and **reproducible research pipelines**.
+I am a **Research Engineer in Speech** working within the **Hi! PARIS / École Polytechnique ecosystem**, contributing to research and engineering efforts in **speech generation**, **prosody control**, **voice conversion**, and **NLP**.
 
-My work sits at the intersection of:
+My work combines **scientific rigor** and **practical implementation**, with experience spanning:
+- **French TTS and prosody control**
+- **SSML-based modeling**
+- **WavLM-based speech resynthesis**
+- **evaluation and reproducible research pipelines**
+- **HPC-scale experimentation**
 
-- **Speech synthesis** and **prosody modeling**
-- **Explicit control** with SSML and symbolic planning
-- **Representation-based speech generation** with WavLM
-- **Zero-shot voice conversion**
-- **Reliable evaluation** for research-grade experiments
-- **Scalable training** on HPC infrastructures
+I have developed my work in a strong academic research environment, including collaboration and scientific interactions within the **École Polytechnique ecosystem**.
 
 ---
 
@@ -53,6 +53,22 @@ My work sits at the intersection of:
   - ablation studies
   - paper-ready tables and figures
 - 🎙️ Currently developing **WavLM-based speech resynthesis** and **zero-shot voice conversion** pipelines for high-fidelity generation
+
+---
+
+## Experience
+
+### Research Engineer in Speech  
+**Hi! PARIS / École Polytechnique**
+
+I contribute to research and development in **speech generation** and **language technologies**, with a particular focus on:
+- controllable TTS
+- prosody-aware modeling
+- voice conversion
+- evaluation methodology
+- reproducible experimentation at scale
+
+My work has been carried out in a highly demanding research setting, including scientific interactions with senior researchers such as **Éric Moulines**.
 
 ---
 
