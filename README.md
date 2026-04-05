@@ -25,7 +25,8 @@ My work combines **scientific rigor** and **practical implementation**, with exp
 - **French TTS and prosody control**
 - **SSML-based modeling**
 - **WavLM-based speech resynthesis**
-- **evaluation and reproducible research pipelines**
+- **Zero-shot multilingual voice conversion**
+- **Evaluation and reproducible research pipelines**
 - **HPC-scale experimentation**
 
 I have developed my work in a strong academic research environment, including collaboration and scientific interactions within the **École Polytechnique ecosystem**.
@@ -38,6 +39,7 @@ I have developed my work in a strong academic research environment, including co
 - 🧠 **SSML-based modeling** for pauses, rhythm, emphasis, and timing
 - 🧪 **WavLM → Audio resynthesis** with adversarial training and layer ablations
 - 🚀 **Zero-shot voice conversion** using learned speech representations
+- 🌍 **Multilingual TTS adaptation** for European low-resource languages
 - 📊 **Objective and perceptual evaluation** for reproducible speech research
 - ⚙️ **Distributed training pipelines** with PyTorch, DDP, AMP, and Slurm
 
@@ -45,14 +47,16 @@ I have developed my work in a strong academic research environment, including co
 
 ## Selected contributions
 
-- 📄 **ICNLSP 2025** — *Improving French Synthetic Speech Quality via SSML Prosody Control*
-- 🤗 Released **two Hugging Face models** for French SSML pause prediction and break rendering
+- 📄 **ICNLSP 2025** — *Improving French Synthetic Speech Quality via SSML Prosody Control* — published
+- 📄 **JEP 2026** — *WavLM-Vocoder-French: Neural Waveform Resynthesis from Frozen WavLM Representations* — accepted
+- 📄 **EUSIPCO 2026** — *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* — under submission
+- 🤗 Released **Hugging Face models** for French SSML pause prediction and break rendering
+- 🎙️ Developed **WavLM-based speech resynthesis** with adversarial training, layer ablation studies, and open-source release
 - 🛠️ Built reproducible research pipelines for:
   - distributed training (**DDP / AMP**)
   - checkpoint-based evaluation
   - ablation studies
   - paper-ready tables and figures
-- 🎙️ Currently developing **WavLM-based speech resynthesis** and **zero-shot voice conversion** pipelines for high-fidelity generation
 
 ---
 
@@ -65,10 +69,11 @@ I contribute to research and development in **speech generation** and **language
 - controllable TTS
 - prosody-aware modeling
 - voice conversion
+- multilingual speech adaptation
 - evaluation methodology
 - reproducible experimentation at scale
 
-My work has been carried out in a highly demanding research setting, including scientific interactions with senior researchers such as **Éric Moulines**.
+My work has been carried out in a highly demanding research setting, including scientific interactions with senior researchers such as **Éric Moulines** and **Reda Dehak**.
 
 ---
 
@@ -87,47 +92,66 @@ My work has been carried out in a highly demanding research setting, including s
 
 **Links**
 - [Repository](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS)
+- [Demo](https://hi-paris.github.io/DemoTTS/)
 - [HF Model — `ssml-text2breaks-fr-lora`](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora)
 - [HF Model — `ssml-break2ssml-fr-lora`](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
+- [Paper — ICNLSP 2025](https://aclanthology.org/2025.icnlsp-1.30/)
 
 ---
 
 ### 🧪 WavLM Vocoder for French
-**Waveform resynthesis from WavLM representations for speech generation and voice conversion research.**
+**Waveform resynthesis from frozen WavLM representations for speech generation and voice conversion research.**
 
 **What this project includes**
-- adversarial waveform reconstruction
+- adversarial waveform reconstruction (HiFi-GAN + MPD/MSD discriminators)
+- learned weighted layer fusion over WavLM-Base+ representations
 - chunked inference with overlap-add
-- checkpoint evaluation
-- layer ablation experiments
+- checkpoint evaluation and layer ablation experiments
 - experiment tracking for paper-ready analysis
+- trained on 238h of cleaned French speech (SIWIS, M-AILABS, Common Voice)
 
 **Links**
-- [Repository](https://github.com/NassimaOULDOUALI/wavlm-vocoder-french)
+- [Repository](https://github.com/hi-paris/wavlm-vocoder-french)
+- [Demo](https://hi-paris.github.io/wavlm2audio-demo/)
+- [HF Models](https://huggingface.co/nassimaODL)
+- Paper accepted at **JEP 2026** (Montpellier, June 8–12)
 
 ---
 
-### 🚀 KVC / MIMIC-VC
-**A research direction toward zero-shot voice conversion using WavLM-based representations and high-fidelity generation modules.**
+### 🌍 CosyVoice2-EU — Multilingual Zero-Shot TTS Adaptation
+**Component-level adaptation of CosyVoice2 for European languages, with a focus on French and German.**
 
-**Current scope**
-- Stage 1: representation-to-audio resynthesis
-- Stage 2: voice conversion pipeline design
-- planned diffusion / flow-based conditioning for zero-shot conversion
+**What this project includes**
+- modular adaptation of a large-scale zero-shot TTS system
+- language-specific fine-tuning of text encoder, flow matching module, and vocoder
+- evaluation across seen and unseen speakers for French and German
+- open-source release with reproducible training configs
 
 **Links**
-- [Repository](https://github.com/NassimaOULDOUALI/KVC)
+- [Repository](https://github.com/hi-paris/CosyVoice2-EU)
+- [Demo](https://hi-paris.github.io/CosyVoice2-EU/)
+- Paper under submission at **EUSIPCO 2026**
 
 ---
 
 ## Publications and research artifacts
 
 ### Publications
-- **ICNLSP 2025** — *Improving French Synthetic Speech Quality via SSML Prosody Control*
+
+| Venue | Title | Status |
+|-------|-------|--------|
+| **ICNLSP 2025** | *Improving French Synthetic Speech Quality via SSML Prosody Control* | Published — [ACL Anthology](https://aclanthology.org/2025.icnlsp-1.30/) |
+| **JEP 2026** | *WavLM-Vocoder-French: Neural Waveform Resynthesis from Frozen WavLM Representations* | Accepted |
+| **EUSIPCO 2026** | *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* | Under submission |
 
 ### Models
 - [nassimaODL/ssml-text2breaks-fr-lora](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora)
 - [nassimaODL/ssml-break2ssml-fr-lora](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
+
+### Demos
+- [WavLM2Audio](https://hi-paris.github.io/wavlm2audio-demo/)
+- [Prosody-Control TTS](https://hi-paris.github.io/DemoTTS/)
+- [CosyVoice2-EU](https://hi-paris.github.io/CosyVoice2-EU/)
 
 ### Research assets
 - training and evaluation pipelines
@@ -145,6 +169,7 @@ My work has been carried out in a highly demanding research setting, including s
 - SSML control
 - pause prediction
 - voice conversion
+- multilingual speech adaptation
 - speech evaluation
 - segmentation and alignment
 - chunked inference and overlap-add reconstruction
@@ -155,7 +180,7 @@ My work has been carried out in a highly demanding research setting, including s
 - mixed precision (**AMP**)
 - GAN training
 - speech representation learning
-- diffusion / flow-based generation concepts
+- flow matching / diffusion-based generation
 
 ### Research engineering
 - Slurm / HPC workflows
@@ -171,9 +196,9 @@ My work has been carried out in a highly demanding research setting, including s
 
 | Degree | Institution |
 |--------|-------------|
-| Master’s degree | Université Gustave Eiffel |
-| Master’s degree | UVSQ (Versailles Saint-Quentin-en-Yvelines) |
-| Bachelor’s degree | Paris Descartes University |
+| Master's degree | Université Gustave Eiffel |
+| Master's degree | UVSQ (Versailles Saint-Quentin-en-Yvelines) |
+| Bachelor's degree | Paris Descartes University |
 
 ---
 
@@ -184,7 +209,7 @@ I am open to **research collaborations** and **industry partnerships** in:
 - controllable TTS
 - prosody modeling
 - French speech technology
-- voice conversion
+- multilingual voice conversion
 - evaluation and reproducibility for speech systems
 
 I am especially interested in projects where **scientific rigor**, **data confidentiality**, and **engineering quality** matter.
