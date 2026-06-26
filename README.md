@@ -1,11 +1,11 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Nassima%20OULD%20OUALI&fontSize=40&fontColor=ffffff&animation=fadeIn)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=Nassima%20OULD%20OUALI&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Research%20Engineer%20in%20Speech%20%7C%20TTS%20%C2%B7%20Voice%20Conversion%20%C2%B7%20NLP&descAlignY=62&descSize=18)
 
 <div align="center">
 
 # 👋 Hi, I'm Nassima OULD OUALI
 
-### Research Engineer in Speech @ Hi! PARIS / École Polytechnique  
-### Working on TTS, Prosody Control, Voice Conversion, and NLP  
+### Research Engineer in Speech @ Hi! PARIS / École Polytechnique
+**TTS · Prosody Control · Voice Conversion · NLP**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://fr.linkedin.com/in/nassima-ould-ouali-858644170)
 [![Email](https://img.shields.io/badge/Email-Contact-%23D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nassima.ouldouali123@gmail.com)
@@ -19,205 +19,95 @@
 
 ## About me
 
-I am a **Research Engineer in Speech** working within the **Hi! PARIS / École Polytechnique ecosystem**, contributing to research and engineering efforts in **speech generation**, **prosody control**, **voice conversion**, and **NLP**.
+I am a **Research Engineer in Speech** within the **Hi! PARIS / École Polytechnique** ecosystem, working at the intersection of **speech generation**, **prosody control**, **voice conversion**, and **NLP**.
 
-My work combines **scientific rigor** and **practical implementation**, with experience spanning:
-- **French TTS and prosody control**
-- **SSML-based modeling**
-- **WavLM-based speech resynthesis**
-- **Zero-shot multilingual voice conversion**
-- **Evaluation and reproducible research pipelines**
-- **HPC-scale experimentation**
-
-I have developed my work in a strong academic research environment, including collaboration and scientific interactions within the **École Polytechnique ecosystem**.
+My work combines scientific rigor with production-grade engineering — from controllable French TTS and WavLM-based resynthesis to zero-shot multilingual voice conversion and large-scale, reproducible experimentation on HPC (Jean Zay / A100). I collaborate closely with senior researchers including **Éric Moulines** and **Reda Dehak**.
 
 ---
 
-## Research focus
+## 🔬 Research focus
 
 - 🔊 **Controllable French TTS** with explicit prosody planning
 - 🧠 **SSML-based modeling** for pauses, rhythm, emphasis, and timing
-- 🧪 **WavLM → Audio resynthesis** with adversarial training and layer ablations
-- 🚀 **Zero-shot voice conversion** using learned speech representations
+- 🧪 **WavLM → audio resynthesis** with adversarial training and layer ablations
+- 🚀 **Zero-shot voice conversion** in learned speech-representation spaces
 - 🌍 **Multilingual TTS adaptation** for European low-resource languages
-- 📊 **Objective and perceptual evaluation** for reproducible speech research
-- ⚙️ **Distributed training pipelines** with PyTorch, DDP, AMP, and Slurm
+- 📊 **Objective & perceptual evaluation** for reproducible speech research
 
 ---
 
-## Selected contributions
+## 🛠️ Tech stack
 
-- 📄 **ICNLSP 2025** — *Improving French Synthetic Speech Quality via SSML Prosody Control* — published
-- 📄 **JEP 2026** — *WavLM-Vocoder-French: Neural Waveform Resynthesis from Frozen WavLM Representations* — accepted
-- 📄 **EUSIPCO 2026** — *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* — under submission
-- 🤗 Released **Hugging Face models** for French SSML pause prediction and break rendering
-- 🎙️ Developed **WavLM-based speech resynthesis** with adversarial training, layer ablation studies, and open-source release
-- 🛠️ Built reproducible research pipelines for:
-  - distributed training (**DDP / AMP**)
-  - checkpoint-based evaluation
-  - ablation studies
-  - paper-ready tables and figures
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Transformers-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
+![Slurm](https://img.shields.io/badge/Slurm%20%2F%20HPC-2C3E50?style=flat&logo=linux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat&logo=latex&logoColor=white)
 
----
-
-## Experience
-
-### Research Engineer in Speech  
-**Hi! PARIS / École Polytechnique**
-
-I contribute to research and development in **speech generation** and **language technologies**, with a particular focus on:
-- controllable TTS
-- prosody-aware modeling
-- voice conversion
-- multilingual speech adaptation
-- evaluation methodology
-- reproducible experimentation at scale
-
-My work has been carried out in a highly demanding research setting, including scientific interactions with senior researchers such as **Éric Moulines** and **Reda Dehak**.
+**Specialties:** DDP / AMP distributed training · GAN & flow-matching / diffusion generation · LoRA / PEFT fine-tuning · speech representation learning · RAG & LLM orchestration · reproducible evaluation pipelines
 
 ---
 
-## Selected projects
+## 🚀 Featured projects
 
 ### 🎧 Prosody-Control French TTS (SSML)
-**Controllable French speech synthesis with explicit SSML planning for pauses, timing, and emphasis.**
+Controllable French speech synthesis with explicit SSML planning for pauses, timing, and emphasis — symbolic pause planning, break prediction, SSML generation, and reproducible training/inference.
 
-**What this project includes**
-- prosody-oriented text preprocessing
-- symbolic pause planning
-- SSML generation
-- break prediction
-- evaluation utilities
-- reproducible training and inference scripts
-
-**Links**
-- [Repository](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS)
-- [Demo](https://hi-paris.github.io/DemoTTS/)
-- [HF Model — `ssml-text2breaks-fr-lora`](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora)
-- [HF Model — `ssml-break2ssml-fr-lora`](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
-- [Paper — ICNLSP 2025](https://aclanthology.org/2025.icnlsp-1.30/)
-
----
+[Repository](https://github.com/NassimaOULDOUALI/Prosody-Control-French-TTS) · [Demo](https://hi-paris.github.io/DemoTTS/) · [Paper — ICNLSP 2025](https://aclanthology.org/2025.icnlsp-1.30/) · HF: [text2breaks](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora) · [break2ssml](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
 
 ### 🧪 WavLM Vocoder for French
-**Waveform resynthesis from frozen WavLM representations for speech generation and voice conversion research.**
+Waveform resynthesis from frozen WavLM representations: adversarial reconstruction (HiFi-GAN + MPD/MSD), learned weighted layer fusion over WavLM-Base+, chunked overlap-add inference, and layer-ablation studies. Trained on 238h of cleaned French speech (SIWIS, M-AILABS, Common Voice).
 
-**What this project includes**
-- adversarial waveform reconstruction (HiFi-GAN + MPD/MSD discriminators)
-- learned weighted layer fusion over WavLM-Base+ representations
-- chunked inference with overlap-add
-- checkpoint evaluation and layer ablation experiments
-- experiment tracking for paper-ready analysis
-- trained on 238h of cleaned French speech (SIWIS, M-AILABS, Common Voice)
+[Repository](https://github.com/hi-paris/wavlm-vocoder-french) · [Demo](https://hi-paris.github.io/wavlm2audio-demo/) · [HF Models](https://huggingface.co/nassimaODL) · [Paper — **JEP 2026**](https://www.isca-archive.org/tmp/jep_2026/ouldouali26_jep.pdf)
 
-**Links**
-- [Repository](https://github.com/hi-paris/wavlm-vocoder-french)
-- [Demo](https://hi-paris.github.io/wavlm2audio-demo/)
-- [HF Models](https://huggingface.co/nassimaODL)
-- Paper accepted at **JEP 2026** (Montpellier, June 8–12)
+### 🌍 CosyVoice2-EU — Multilingual Zero-Shot TTS
+Component-level adaptation of CosyVoice2 for European languages (French & German): language-specific fine-tuning of the text encoder, flow-matching module, and vocoder, evaluated across seen/unseen speakers.
 
----
+[Repository](https://github.com/hi-paris/CosyVoice2-EU) · [Demo](https://hi-paris.github.io/CosyVoice2-EU/) · Paper under submission — **EUSIPCO 2026**
 
-### 🌍 CosyVoice2-EU — Multilingual Zero-Shot TTS Adaptation
-**Component-level adaptation of CosyVoice2 for European languages, with a focus on French and German.**
+### 🧭 Compass — Agentic RAG Assistant (HEC Paris)
+Production-deployed retrieval-augmented assistant for **HEC Paris**, combining document retrieval with an agentic LLM pipeline, served as a full web application on Azure. Focus on robust orchestration, controlled tool-calling, and cost-efficient inference.
 
-**What this project includes**
-- modular adaptation of a large-scale zero-shot TTS system
-- language-specific fine-tuning of text encoder, flow matching module, and vocoder
-- evaluation across seen and unseen speakers for French and German
-- open-source release with reproducible training configs
+[Live app](https://compass.francecentral.cloudapp.azure.com/) *(HEC login required)*
+<br>**Stack:** RAG · LLM orchestration · vector retrieval · Flask/web app · Azure deployment
 
-**Links**
-- [Repository](https://github.com/hi-paris/CosyVoice2-EU)
-- [Demo](https://hi-paris.github.io/CosyVoice2-EU/)
-- Paper under submission at **EUSIPCO 2026**
+### 👁️ AIKON — Paleographic Analysis Module (École des Ponts / ENPC)
+Developing a new computer-vision module for the **aikon-demo** platform that makes fine-grained, interpretable **paleographic (historical-script) analysis** accessible to historians without ML expertise. End-to-end pipeline (milestone 1): a new dataset object pairing **text-line images with their transcriptions**, a **training/inference API** that fine-tunes networks for morphological script-metrological analysis (following Vlachou-Efstathiou et al., ICDAR 2026), and an **interactive front-end** to explore results — character prototypes, morphological differences, distances, and diachronic evolution. Built for non-expert testing, open-source release, and documentation; later extensible to typographers. Developed with **Mathieu Aubry's group at École des Ponts (ENPC)**.
+
+[Platform](https://aikon-demo.huma-num.fr/) · [Repository](https://github.com/Aikon-platform/aikon-demo) · **Stack:** Computer Vision · Python · PyTorch · web platform (front-end + API)
 
 ---
 
-## Publications and research artifacts
-
-### Publications
+## 📚 Publications
 
 | Venue | Title | Status |
 |-------|-------|--------|
 | **ICNLSP 2025** | *Improving French Synthetic Speech Quality via SSML Prosody Control* | Published — [ACL Anthology](https://aclanthology.org/2025.icnlsp-1.30/) |
-| **JEP 2026** | *WavLM-Vocoder-French: Neural Waveform Resynthesis from Frozen WavLM Representations* | Accepted |
-| **EUSIPCO 2026** | *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* | Under submission |
+| **JEP 2026** | *WavLM-Vocoder-French: Neural Waveform Resynthesis from Frozen WavLM Representations* | Published — [ISCA Archive](https://www.isca-archive.org/tmp/jep_2026/ouldouali26_jep.pdf) |
+| **EUSIPCO 2026** | *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* | Accepted |
 
-### Models
-- [nassimaODL/ssml-text2breaks-fr-lora](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora)
-- [nassimaODL/ssml-break2ssml-fr-lora](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
-
-### Demos
-- [WavLM2Audio](https://hi-paris.github.io/wavlm2audio-demo/)
-- [Prosody-Control TTS](https://hi-paris.github.io/DemoTTS/)
-- [CosyVoice2-EU](https://hi-paris.github.io/CosyVoice2-EU/)
-
-### Research assets
-- training and evaluation pipelines
-- reproducible experiment configurations
-- analysis scripts for ablations
-- paper-ready figures and tables
+**Released models:** [ssml-text2breaks-fr-lora](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora) · [ssml-break2ssml-fr-lora](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
+**Demos:** [WavLM2Audio](https://hi-paris.github.io/wavlm2audio-demo/) · [Prosody-Control TTS](https://hi-paris.github.io/DemoTTS/) · [CosyVoice2-EU](https://hi-paris.github.io/CosyVoice2-EU/)
 
 ---
 
-## Technical expertise
-
-### Speech and audio
-- Text-to-Speech (TTS)
-- prosody modeling
-- SSML control
-- pause prediction
-- voice conversion
-- multilingual speech adaptation
-- speech evaluation
-- segmentation and alignment
-- chunked inference and overlap-add reconstruction
-
-### Machine learning
-- PyTorch
-- distributed training (**DDP**)
-- mixed precision (**AMP**)
-- GAN training
-- speech representation learning
-- flow matching / diffusion-based generation
-
-### Research engineering
-- Slurm / HPC workflows
-- experiment reproducibility
-- checkpoint management
-- configuration-driven training
-- evaluation pipelines
-- LaTeX-ready reporting and analysis
-
----
-
-## Education
+## 🎓 Education
 
 | Degree | Institution |
 |--------|-------------|
 | Master's degree | Université Gustave Eiffel |
 | Master's degree | UVSQ (Versailles Saint-Quentin-en-Yvelines) |
-| Bachelor's degree | Paris Descartes University |
+| Bachelor's degree | Université Paris Descartes |
 
 ---
 
-## Collaboration
+## 🤝 Collaboration
 
-I am open to **research collaborations** and **industry partnerships** in:
+Open to **research collaborations** and **industry partnerships** in controllable TTS, prosody modeling, French speech technology, multilingual voice conversion, and reproducible evaluation for speech systems — especially where scientific rigor, data confidentiality, and engineering quality matter.
 
-- controllable TTS
-- prosody modeling
-- French speech technology
-- multilingual voice conversion
-- evaluation and reproducibility for speech systems
-
-I am especially interested in projects where **scientific rigor**, **data confidentiality**, and **engineering quality** matter.
-
----
-
-## Support my work
-
-If you find my repositories useful for research or development, consider giving them a **star** on GitHub. It helps increase visibility and supports continued maintenance and improvement.
+If you find a repository useful, a ⭐ helps visibility and supports continued maintenance.
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn)
