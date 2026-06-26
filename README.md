@@ -1,4 +1,4 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=160&section=header&text=Nassima%20OULD%20OUALI&fontSize=44&fontColor=ffffff&animation=fadeIn&desc=Research%20Engineer%20in%20Speech%20%7C%20TTS%20%C2%B7%20Voice%20Conversion%20%C2%B7%20NLP&descAlignY=62&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=250&section=header&text=Nassima%20OULD%20OUALI&fontSize=56&fontColor=ffffff&fontAlignY=40&animation=fadeIn&desc=Research%20Engineer%20in%20Speech%20%C2%B7%20TTS%20%C2%B7%20Voice%20Conversion&descAlignY=58&descSize=20)
 
 <div align="center">
 
@@ -87,7 +87,7 @@ Developing a new computer-vision module for the **aikon-demo** platform that mak
 |-------|-------|--------|
 | **ICNLSP 2025** | *Improving French Synthetic Speech Quality via SSML Prosody Control* | Published — [ACL Anthology](https://aclanthology.org/2025.icnlsp-1.30/) |
 | **JEP 2026** | *WavLM-Vocoder-French: Neural Waveform Resynthesis from Frozen WavLM Representations* | Published — [ISCA Archive](https://www.isca-archive.org/tmp/jep_2026/ouldouali26_jep.pdf) |
-| **EUSIPCO 2026** | *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* | Accepted |
+| **EUSIPCO 2026** | *Europeanizing Modular Zero-Shot TTS: A Component-Level Adaptation Framework for French and German* | Under submission |
 
 **Released models:** [ssml-text2breaks-fr-lora](https://huggingface.co/nassimaODL/ssml-text2breaks-fr-lora) · [ssml-break2ssml-fr-lora](https://huggingface.co/nassimaODL/ssml-break2ssml-fr-lora)
 **Demos:** [WavLM2Audio](https://hi-paris.github.io/wavlm2audio-demo/) · [Prosody-Control TTS](https://hi-paris.github.io/DemoTTS/) · [CosyVoice2-EU](https://hi-paris.github.io/CosyVoice2-EU/)
